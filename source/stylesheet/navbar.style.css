@@ -1,0 +1,42 @@
+.navbar-container {
+    top:0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+    color:#fff;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+.web-portal-title {
+    font-size: 32px;
+}
+
+.web-portal-options {
+    display: flex;
+    gap: 1rem;
+    font-size: 18px;
+}
+
+
+.web-portal-options li {
+    list-style: none;
+    padding: 10px 10px;
+}
+
+.web-portal-options li:hover{
+    background-color: #4c9e9e;
+    transition: 0.5s ease;
+    border-radius: 5px;
+}
+
+.web-portal-options li.active {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+}
+
+a {
+    color:#fff
+}
